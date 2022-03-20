@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+}
+
+body {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  overflow: scroll;
+}
+
+.navbar-division {
+  margin: 2% 0% 2% 0%;
+}
+
+.button-division {
+  background-color: #ff9a8b;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff9a8b), color-stop(55%, #ff6a88), to(#ff99ac));
+  background-image: linear-gradient(90deg, #ff9a8b 0%, #ff6a88 55%, #ff99ac 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 15px;
+}
+
+.button-division a {
+  margin: 2% 0% 2% 0%;
+}
+
+.button-division button {
+  height: 55px;
+  width: 130px;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.button-division .income-btn {
+  margin: 0px 25px 0px 0px;
+  background-color: #57ee57;
+}
+
+.button-division .income-btn:hover {
+  background-color: green;
+  cursor: pointer;
+  color: white;
+}
+
+.button-division .expense-btn {
+  margin: 0px 0px 0px 25px;
+  background-color: #eb4d4d;
+}
+
+.button-division .expense-btn:hover {
+  background-color: #810000;
+  color: white;
+  cursor: pointer;
+}
+
+.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #a78738;
+  margin: 2% 15% 1% 15%;
+  border-radius: 20px;
+}
+
+.display h1 {
+  text-decoration: underline;
+}
+
+.display .expense-item,
+.display .income-item {
+  background-color: #fbab7e;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.income-division,
+.expense-division {
+  background-color: #a78738;
+  border-radius: 20px;
+  padding: 50px;
+  width: 500px;
+  margin: auto;
+}
+
+.income-division input,
+.expense-division input {
+  height: 5%;
+  text-align: center;
+  width: 65%;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.income-division p,
+.expense-division p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.income-division button,
+.expense-division button {
+  height: 55px;
+  width: 160px;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.income-division button:hover,
+.expense-division button:hover {
+  cursor: pointer;
+}
+
+.income-division .back-to-home,
+.expense-division .back-to-home {
+  background-color: #ca9612;
+}
+
+.income-division .back-to-home:hover,
+.expense-division .back-to-home:hover {
+  background-color: #795c14;
+  color: white;
+}
+
+.income-division .add-income-btn,
+.expense-division .add-income-btn {
+  margin-top: 2%;
+  background-color: #57ee57;
+}
+
+.income-division .add-income-btn:hover,
+.expense-division .add-income-btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.income-division .add-expense-btn,
+.expense-division .add-expense-btn {
+  margin-top: 2%;
+  background-color: #df3030;
+}
+
+.income-division .add-expense-btn:hover,
+.expense-division .add-expense-btn:hover {
+  background-color: maroon;
+  color: white;
+}
+
+.total-income-expense-division {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0% 19% 0% 19%;
+  background-color: #a78738;
+  border-radius: 20px;
+}
+
+.total-profit-loss-division h2 {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
